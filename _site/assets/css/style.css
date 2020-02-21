@@ -320,6 +320,14 @@ a:hover { text-decoration: underline; }
 
 .page-header { background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
 
+.sub-header { background-image: url(/assets/images/header-background.png); background-repeat: no-repeat; background-position: calc(50% + 600px) 50%; }
+
+@media screen and (min-width: 64em) { .page-header { padding: 0; }
+  .sub-header { padding: 5rem 6rem; } }
+@media screen and (max-width: 64em) and (min-width: 42em) { .page-header { padding: 0; }
+  .sub-header { padding: 3rem 4rem; } }
+@media screen and (max-width: 42em) { .page-header { padding: 0; }
+  .sub-header { padding: 2rem 1rem; } }
 body { background-color: #181a1b; color: #eee; }
 
 .main-content h1, .main-content h2, .main-content h3 { color: #159399; }
