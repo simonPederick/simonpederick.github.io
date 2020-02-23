@@ -1,6 +1,6 @@
 ## Hi there!
 
-I'm **Simon Pederick**, a dedicated games programmer and generalist developer with a strong love for all things games. I'm a co-founder of Harmonious Productions where I currently work as the technical director. Below you can view **[professional projects](#professional-projects)** I've worked on as well as some nifty **[personal games](#personal-projects)** I do for fun. You can also find my **<a href="/assets/resume.pdf" target="_blank">résumé here</a>**. If you ever want to chat job opportunities, cool projects or interesting ideas just drop me an email at <a href="mailto:simonpederick@gmail.com" target="_blank">simonpederick@gmail.com</a>.
+I'm **Simon Pederick**, a dedicated games programmer and generalist developer with a strong love for all things games. I'm a co-founder of Harmonious Productions where I currently work as the technical director. Below you can view **[professional projects](#professional-projects)** I've worked on as well as some nifty **[personal games](#personal-projects)** I do for fun. You can also find my **<a href="/assets/resume.pdf" target="_blank">résumé here</a>**. If you ever want to chat job opportunities, cool projects or interesting ideas, just drop me an email at <a href="mailto:simonpederick@gmail.com" target="_blank">simonpederick@gmail.com</a>.
 
 # Professional Projects {#professional-projects}
 
@@ -8,7 +8,7 @@ _I have been the lead or solo programmer for all projects listed below._
 
 ## Putty Pals
 
-A co-op puzzle platformer where players must bounce, squish and trampoline their way to Puttopia. Released on PC and Nintendo Switch.
+A co-op puzzle platformer where players must bounce, squish and trampoline their way to Puttopia. Released on PC and Nintendo Switch. Received People's Choice award at Unite.
 
 - Instrumental in building out game framework and core gameplay including putty physics based movement and their ability to swim, swing, trampoline and slingshot. 
 - Wrote custom level design and terrain building tools from the ground up.
@@ -59,7 +59,7 @@ A mobile isometric tile-matching puzzle game about building a large and grand ci
 
 A mobile risk-like strategy game where players try to conquer the globe with their canine army.
 
-- Created all artwork and designed game mechanics.
+- Designed complex game mechanics.
 - Built out strategic AI for world map, and min-max style AI for chess like portion of the game.
 - Designed and built UI to convey complex information.
 - Wrote and created tutorial for explaining complex mechanics.

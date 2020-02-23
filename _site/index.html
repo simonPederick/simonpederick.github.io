@@ -21,7 +21,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="/assets/css/style.css?v=cc242ea354bfde39f5740a2d763bf64210ec928c">
+    <link rel="stylesheet" href="/assets/css/style.css?v=a107bac39e91cddfef2485f333000c99a3085bdd">
+  
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/skipser/youtube-autoresize/master/youtube-autoresizer.js"></script>
   </head>
   <body>
     <header class="page-header" role="banner">
@@ -34,7 +37,7 @@
     <main id="content" class="main-content" role="main">
       <h2 id="hi-there">Hi there!</h2>
 
-<p>I’m <strong>Simon Pederick</strong>, a dedicated games programmer and generalist developer with a strong love for all things games. I’m a co-founder of Harmonious Productions where I currently work as the technical director. Below you can view <strong><a href="#professional-projects">professional projects</a></strong> I’ve worked on as well as some nifty <strong><a href="#personal-projects">personal games</a></strong> I do for fun. You can also find my <strong><a href="/assets/resume.pdf" target="_blank">résumé here</a></strong>. If you ever want to chat job opportunities, cool projects or interesting ideas just drop me an email at <a href="mailto:simonpederick@gmail.com" target="_blank">simonpederick@gmail.com</a>.</p>
+<p>I’m <strong>Simon Pederick</strong>, a dedicated games programmer and generalist developer with a strong love for all things games. I’m a co-founder of Harmonious Productions where I currently work as the technical director. Below you can view <strong><a href="#professional-projects">professional projects</a></strong> I’ve worked on as well as some nifty <strong><a href="#personal-projects">personal games</a></strong> I do for fun. You can also find my <strong><a href="/assets/resume.pdf" target="_blank">résumé here</a></strong>. If you ever want to chat job opportunities, cool projects or interesting ideas, just drop me an email at <a href="mailto:simonpederick@gmail.com" target="_blank">simonpederick@gmail.com</a>.</p>
 
 <h1 id="professional-projects">Professional Projects</h1>
 
@@ -42,7 +45,7 @@
 
 <h2 id="putty-pals">Putty Pals</h2>
 
-<p>A co-op puzzle platformer where players must bounce, squish and trampoline their way to Puttopia. Released on PC and Nintendo Switch.</p>
+<p>A co-op puzzle platformer where players must bounce, squish and trampoline their way to Puttopia. Released on PC and Nintendo Switch. Received People’s Choice award at Unite.</p>
 
 <ul>
   <li>Instrumental in building out game framework and core gameplay including putty physics based movement and their ability to swim, swing, trampoline and slingshot.</li>
@@ -102,7 +105,7 @@
 <p>A mobile risk-like strategy game where players try to conquer the globe with their canine army.</p>
 
 <ul>
-  <li>Created all artwork and designed game mechanics.</li>
+  <li>Designed complex game mechanics.</li>
   <li>Built out strategic AI for world map, and min-max style AI for chess like portion of the game.</li>
   <li>Designed and built UI to convey complex information.</li>
   <li>Wrote and created tutorial for explaining complex mechanics.</li>
@@ -112,5 +115,36 @@
 <img src="/assets/images/planetDog/chess.png" title="Planet of the Dogs" width="800" /></p>
 
     </main>
+
+    <script>
+      /*
+   * Youtube video auto-resizer script
+   * Created by Skipser.com
+  */
+
+        $(document).ready(function () {
+          if (typeof YOUTUBE_VIDEO_MARGIN == 'undefined') {
+            YOUTUBE_VIDEO_MARGIN = 5;
+          }
+          $('iframe').each(function (index, item) {
+            if ($(item).attr('src').match(/(https?:)?\/\/www\.youtube\.com/)) {
+              var w = $(item).attr('width');
+              var h = $(item).attr('height');
+              var ar = h / w * 100;
+              ar = ar.toFixed(2);
+              //Style iframe    
+              $(item).css('position', 'absolute');
+              $(item).css('top', '0');
+              $(item).css('left', '0');
+              $(item).css('width', '100%');
+              $(item).css('height', '100%');
+              $(item).css('max-width', w + 'px');
+              $(item).css('max-height', h + 'px');
+              $(item).wrap('<div style="max-width:' + w + 'px;margin:0 auto; padding:' + YOUTUBE_VIDEO_MARGIN + 'px;" />');
+              $(item).wrap('<div style="position: relative;padding-bottom: ' + ar + '%; height: 0; overflow: hidden;" />');
+            }
+          });
+        });
+    </script>
   </body>
 </html>

@@ -59,7 +59,7 @@ A mobile isometric tile-matching puzzle game about building a large and grand ci
 
 A mobile risk-like strategy game where players try to conquer the globe with their canine army.
 
-- Created all artwork and designed game mechanics.
+- Designed complex game mechanics.
 - Built out strategic AI for world map, and min-max style AI for chess like portion of the game.
 - Designed and built UI to convey complex information.
 - Wrote and created tutorial for explaining complex mechanics.
