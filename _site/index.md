@@ -10,7 +10,7 @@ _I have been the lead or solo programmer for all projects listed below._
 
 A co-op puzzle platformer where players must bounce, squish and trampoline their way to Puttopia. Released on PC and Nintendo Switch. Received People's Choice award at Unite.
 
-- Instrumental in building out game framework and core gameplay including putty physics based movement and their ability to swim, swing, trampoline and slingshot. 
+- Soly wrote full game framework and all gameplay features released in the final product including putty physics based movement and their ability to swim, swing, trampoline and slingshot.
 - Wrote custom level design and terrain building tools from the ground up.
 - Wrote custom post processing and effects pipeline including special effects shaders for water, heat distortion and reflections.
 
@@ -40,6 +40,17 @@ Educational mobile app developed with a client designed to teach Chinese and Ind
 - Developed automated testing tools for validating and testing the game.
 - Developed partner server application and online website client.
 - Developed AI system for processing large amounts of recorded child metric data and determining best learning techniques to apply.
+
+## Monsta Makin
+
+Developed with Film Vic a co-op voxel building prototype with monsta friends.
+
+- Developed voxel building system with support for different block types and furniture.
+- Developed advanced rendering system with support for 3d beveled edges and greeble details.
+- Developed fuzzy logic AI system for monstas exploring and interacting with player built creations.
+
+<img src="/assets/images/monstaMakin/monstamakin-a.png" title="Monsta Makin" width="800"/>
+<img src="/assets/images/monstaMakin/monstamakin-b.png" title="Monsta Makin" width="800"/>
 
 # Personal Projects {#personal-projects}
 
